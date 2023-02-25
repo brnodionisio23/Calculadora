@@ -1,5 +1,8 @@
 .calculator {
     display: grid;
+    grid-gap: 10px;
+    justify-content: center;
+    align-content: center;
     grid-template-areas:
         "result result result result"
         "box10 box11 box12 box13"
@@ -9,9 +12,13 @@
         "box0 box0 box17 box16";
 }
 
+
 .result {
     grid-area: result;
-    height: 18px;
+    height: 50px;
+    border: solid black 1px;
+    border-radius: 30px;
+    color: azure;
 }
 
 .box0 {
@@ -85,5 +92,3 @@
 .box17 {
     grid-area: box17;
 }
-
-

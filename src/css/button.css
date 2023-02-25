@@ -1,4 +1,15 @@
 .button {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    background: #0D162A;
+    color: azure;
+}
+
+.buttonzero {
     width: 100%;
+}
+
+.buttonequals {
     height: 100%;
 }
