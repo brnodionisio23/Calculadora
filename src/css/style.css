@@ -100,3 +100,12 @@
 .box17 {
     grid-area: box17;
 }
+
+.screen {
+    background-color: transparent;
+    border: none;
+    color: azure;
+    text-align: end;
+    height: 35px;
+    font-size: 1.5em;
+}

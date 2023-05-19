@@ -8,5 +8,5 @@ html,
 body {
     height: calc(100%-20px);
     background: #07296d;
-    /* background: #0D162A; */
+    -webkit-font-smoothing: antialiased;
 }
